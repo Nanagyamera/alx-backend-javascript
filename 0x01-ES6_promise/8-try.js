@@ -3,6 +3,8 @@ export default function divideFunction(numerator, denominator) {
     throw Error("Cannot divide by 0");
   }
 
-  return numerator / denominator;
+    else {
+    return numerator / denominator;
+    }
 }
 
