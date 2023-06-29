@@ -9,32 +9,32 @@ class HolbertonCourse {
     return this._name;
   }
 
-  set name(newName) {
+  set name(value) {
     if (typeof newName !== 'string') {
       throw new TypeError('Name must be a string');
     }
-    this._name = newName;
+    this._name = value;
   }
 
   get length() {
     return this._length;
   }
 
-  set length(newLength) {
+  set length(value) {
     if (typeof newLength !== 'number') {
       throw new TypeError('Length must be a number');
     }
-    this._length = newLength;
+    this._length = value;
   }
 
   get students() {
     return this._students;
   }
 
-  set students(newStudents) {
+  set students(value) {
     if (!(value instanceof Array)) {
       throw new TypeError('Students must be an array of strings');
     }
-    this._students = newStudents;
+    this._students = value;
   }
 }
