@@ -9,9 +9,7 @@ export default class Currency {
   }
 
   set code(newCode) {
-    if (typeof newCode === 'string') {
-      this._code = newCode;
-    }
+    this._code = newCode;
   }
 
   get name() {
@@ -19,9 +17,7 @@ export default class Currency {
   }
 
   set name(newName) {
-    if (typeof newName === 'string') {
-      this._name = newName;
-    }
+    this._name = newName;
   }
 
   displayFullCurrency() {
