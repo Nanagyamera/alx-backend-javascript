@@ -2,19 +2,19 @@ TypeScript Practice
 
 This repository contains TypeScript practice exercises and their solutions. Each question focuses on different TypeScript concepts and helps you improve your skills in TypeScript development.
 
-Task 1: Student Information
+Task 0: Student Information
 
 - Created the `Student` interface with `firstName`, `lastName`, and `location` fields.
 - Defined two `student` objects with different information.
 - Printed the student information to the console.
 
-Task 2: Employee Types
+Task 1: Employee Types
 
 - Created the `Employee` interface with `name`, `salary`, and `designation` fields.
 - Implemented the `createEmployee` function that returns a `Teacher` or `Director` instance based on the salary input.
 - Tested the `createEmployee` function with different salary values.
 
-Task 3: Director and Teacher Interfaces
+Task 2: Director and Teacher Interfaces
 
 - Created the `DirectorInterface` interface with `workFromHome`, `getCoffeeBreak`, and `workDirectorTasks` methods.
 - Created the `TeacherInterface` interface with `workFromHome`, `getCoffeeBreak`, and `workTeacherTasks` methods.
@@ -25,7 +25,7 @@ Task 3: Director and Teacher Interfaces
 - Implemented the `isDirector` function as a type predicate to check if an employee is a `Director`.
 - Implemented the `executeWork` function to call the appropriate task based on the employee type.
 
-Task 4: Database CRUD Operations
+Task 3: Database CRUD Operations
 
 - Created the `RowID` type and `RowElement` interface in the `interface.ts` file.
 - Imported the `RowID` and `RowElement` types in the `crud.d.ts` ambient file.
@@ -38,7 +38,7 @@ Task 4: Database CRUD Operations
 - Created the `updatedRow` object with the type `RowElement` and updated the `age` field.
 - Called the `updateRow` and `deleteRow` functions with the appropriate arguments.
 
-Task 5: Subject and Teacher Interfaces
+Task 4: Subject and Teacher Interfaces
 
 - Created the `Teacher` interface in the `Teacher.ts` file within the `Subjects` namespace.
 - Created the `Subject` class in the `Subject.ts` file within the `Subjects` namespace.
@@ -56,7 +56,7 @@ Task 5: Subject and Teacher Interfaces
 - Created a `cTeacher` object with experienceTeachingC = 10.
 - Logged the results of calling methods on the `Cpp`, `Java`, and `React` subjects with the `cTeacher`.
 
-Task 6: Credit Summing
+Task 5: Credit Summing
 
 - Created the `MajorCredits` and `MinorCredits` interfaces with the `credits` and `brand` fields.
 - Implemented the `sumMajorCredits` function to sum the credits of two `MajorCredits` subjects.
