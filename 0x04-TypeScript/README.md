@@ -50,3 +50,17 @@ Task 5: Subject and Teacher Interfaces
 - Added the `experienceTeachingReact` attribute to the `Teacher` interface.
 - Implemented the `getRequirements` and `getAvailableTeacher` methods in the `React` class.
 - Created the `Java` class in the `Java.ts`
+- Added the `experienceTeachingJava` attribute to the `Teacher` interface.
+- Implemented the `getRequirements` and `getAvailableTeacher` methods in the `Java` class.
+- Created constants `cpp`, `java`, and `react` for their respective subjects.
+- Created a `cTeacher` object with experienceTeachingC = 10.
+- Logged the results of calling methods on the `Cpp`, `Java`, and `React` subjects with the `cTeacher`.
+
+Task 6: Credit Summing
+
+- Created the `MajorCredits` and `MinorCredits` interfaces with the `credits` and `brand` fields.
+- Implemented the `sumMajorCredits` function to sum the credits of two `MajorCredits` subjects.
+- Implemented the `sumMinorCredits` function to sum the credits of two `MinorCredits` subjects.
+- Tested the functions with sample inputs and printed the results to the console.
+
+Feel free to explore the code files and run them to see the output.
