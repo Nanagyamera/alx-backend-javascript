@@ -5,7 +5,7 @@ const app = express();
 
 // Define a route for the root URL
 app.get('/', (req, res) => {
-  res.send('Hello Holberton School!\n');
+  res.send('Hello Holberton School!');
 });
 
 // Listen on port 1245
